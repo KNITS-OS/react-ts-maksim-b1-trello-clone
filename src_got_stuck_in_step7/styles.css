@@ -1,0 +1,93 @@
+/* same as styles.ts but definitions here have supprt of editor */
+
+.AppContainer {
+    align-items: flex-start;
+    background-color: #3179ba;
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    padding: 20px;
+    width: 100%;
+}
+
+.ColumnContainer {
+    background-color: #ebecf0;
+    width: 300px;
+    min-height: 40px;
+    margin-right: 20px;
+    border-radius: 3px;
+    padding: 8px 8px;
+    flex-grow: 0;
+}
+
+.ColumnTitle {
+    padding: 6px 16px 12px;
+    font-weight: bold;
+}
+
+.CardContainer {
+    background-color: #fff;
+    cursor: pointer;
+    margin-bottom: 0.5rem;
+    padding: 0.5rem 1 rem;
+    max-width: 300px;
+    border-radius: 3px;
+    box-shadow: #091e4240 0px 1px 0px 0px;
+}
+
+.AddItemButton {
+    background-color: #ffffff3d;
+    border-radius: 3px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    max-width: 300px;
+    padding: 10px 12px;
+    text-align: left;
+    transition: background 85ms ease-in;
+    width: 100%;
+}
+.AddItemButton:hover {
+    background-color: #ffffff52;
+      
+}
+.AddItemButton .dark {
+    color: #000;
+}
+
+.NewItemFormContainer {
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    width: 268px;  /* empirisch ermittelt */
+    align-items: flex-start;
+}
+
+.NewItemButton {
+    background-color: #5aac44;
+    border-radius: 3px;
+    border: none;
+    box-shadow: none;
+    color: #fff;
+    padding: 6px 12px;
+    text-align: center;
+}
+
+.NewItemInput {
+    border-radius: 3px;
+    border: none;
+    box-shadow: #091e4240 0px 1px 0px 0px;
+    margin-bottom: 0.5rem;
+    padding: 0.5rem 1rem;
+    width: 100%;
+}
+
+.CustomDragLayerContainer {
+    height: 100%;
+    left: 0;
+    pointer-events: none;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
